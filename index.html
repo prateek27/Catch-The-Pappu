@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<style>
+	canvas{
+	overflow : none;}
+	body{overflow:hidden;}
+	</style>
+		<meta charset="utf-8">
+		<title>Catch the Pappu!</title>
+	</head>
+	<body>
+	 <audio loop="loop" src="sounds/bmusic.wav" id="bgsound"> </audio>
+	 <audio src="sounds/a.wav" id="col"> </audio>
+	 <script>
+	var aud = document.getElementById("bgsound");
+	 function playaud(){
+	 aud.volume=0.05;
+	 aud.play();
+	 
+	 }
+	 aud.onload = playaud();
+	 
+ </script>
+		<script src="js/game 1.js"></script>
+	</body>
+</html>
