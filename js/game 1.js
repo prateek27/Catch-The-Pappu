@@ -5,11 +5,14 @@ canvas.width=1225;
 canvas.height=600;
 document.body.appendChild(canvas);
 
+imagecount=0;
 //Background Image
 var bgloaded=false;
 var background=new Image();
 background.onload=function(){
 bgloaded=true;
+imagecount++;
+console.log(imagecount);
 };
 background.src="images/background.png";
 
@@ -18,6 +21,8 @@ var modiLoaded=false;
 var modi=new Image();
 modi.onload=function(){
 modiLoaded=true;
+imagecount++;
+console.log(imagecount);
 };
 modi.src="images/hero.png";
 
@@ -26,6 +31,8 @@ var rahulLoaded=false;
 var rahul=new Image();
 rahul.onload=function(){
 rahulLoaded=true;
+imagecount++;
+console.log(imagecount);
 };
 
 rahul.src="images/pappu.png";
