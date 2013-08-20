@@ -123,11 +123,14 @@ ctxt.drawImage(rahul,monster.x,monster.y);
 }
 
 //Score
+
+
 ctxt.fillStyle = "rgb(240, 7, 7)";
 ctxt.font="bold 24px Arial ";
 ctxt.textAlign="left";
 ctxt.textBaseLine="top";
 ctxt.fillText("Pappu's caught :"+monstersCaught,40,40);
+
 };
 
 var main=function(){
